@@ -101,6 +101,7 @@ def film_puanla(kullanici_id, film_id, puan, yorum=''):
 
 
 if __name__ == '__main__':
+    print("FilmBot Veritabanı Testi")
     veritabani_olustur()
     ornek_filmler_ekle()
     print('\nTüm filmler:')
