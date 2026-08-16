@@ -84,7 +84,5 @@ def istatistikler():
 
 if __name__ == '__main__':
     print('📊 Film İstatistikleri:')
-    print('reco')
-    print('ake')
     for stat in istatistikler():
         print(f'  {stat[0]:<15} | {stat[1]} film | Ort: ★ {stat[2]}')
