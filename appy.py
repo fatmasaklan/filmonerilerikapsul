@@ -44,6 +44,8 @@ def main():
     ornek_filmler_ekle()
 
     while True:
+        import time
+        time.sleep(2)  # Kısa bir gecikme ekleyerek daha iyi bir kullanıcı deneyimi sunar
         secim = menu()
         if secim == "1":
             filmleri_goster()
